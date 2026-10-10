@@ -1,0 +1,128 @@
+{
+ "N": 1500,
+ "testPairs": 46,
+ "A": {
+  "hand-tuned": {
+   "catch": 0.646,
+   "guess": 0,
+   "citizenWin": 0.646,
+   "wolfAwareR3": 0.9366666666666666
+  },
+  "trained": {
+   "catch": 0.338,
+   "guess": 0,
+   "citizenWin": 0.338,
+   "wolfAwareR3": 0.008
+  },
+  "やさしい": {
+   "catch": 0.8346666666666667,
+   "guess": 0,
+   "citizenWin": 0.8346666666666667,
+   "wolfAwareR3": 0.9746666666666667
+  },
+  "ふつう": {
+   "catch": 0.6006666666666667,
+   "guess": 0,
+   "citizenWin": 0.6006666666666667,
+   "wolfAwareR3": 0.7546666666666667
+  },
+  "かしこい": {
+   "catch": 0.35133333333333333,
+   "guess": 0,
+   "citizenWin": 0.35133333333333333,
+   "wolfAwareR3": 0.8686666666666667
+  },
+  "アストラウルトラ": {
+   "catch": 0.3526666666666667,
+   "guess": 0,
+   "citizenWin": 0.3526666666666667,
+   "wolfAwareR3": 0.004666666666666667
+  }
+ },
+ "B": {
+  "hand-tuned": {
+   "catchAsCitizen": 0.964,
+   "survivalAsWolf": 0.7346666666666667,
+   "wolfWin": 0.7346666666666667,
+   "citizenWin": 0.964,
+   "guess": 0,
+   "npcWinRate": 0.732
+  },
+  "trained": {
+   "catchAsCitizen": 0.9586666666666667,
+   "survivalAsWolf": 0.984,
+   "wolfWin": 0.984,
+   "citizenWin": 0.9586666666666667,
+   "guess": 0,
+   "npcWinRate": 0.7293333333333333
+  }
+ },
+ "C": {
+  "trained": 0.6206666666666667,
+  "hand": 0.3893333333333333
+ },
+ "Crev": {
+  "trained": 0.23733333333333334,
+  "hand": 0.23733333333333334
+ },
+ "D": {
+  "やさしい": 0.37066666666666664,
+  "ふつう": 0.516,
+  "かしこい": 0.644,
+  "アストラウルトラ": 0.7106666666666667
+ },
+ "Drev": {
+  "やさしい": 0.184,
+  "ふつう": 0.288,
+  "かしこい": 0.33866666666666667,
+  "アストラウルトラ": 0.344
+ },
+ "E": {
+  "easy": {
+   "citizenWinReverseOn": 0.26266666666666666,
+   "citizenWinReverseOff": 0.9046666666666666,
+   "npcWinOn": 0.293,
+   "humanWolfCaught": 0
+  },
+  "normal": {
+   "citizenWinReverseOn": 0.156,
+   "citizenWinReverseOff": 0.8133333333333334,
+   "npcWinOn": 0.302,
+   "humanWolfCaught": 0
+  },
+  "smart": {
+   "citizenWinReverseOn": 0.114,
+   "citizenWinReverseOff": 0.6533333333333333,
+   "npcWinOn": 0.30866666666666664,
+   "humanWolfCaught": 0
+  },
+  "ultra": {
+   "citizenWinReverseOn": 0.10933333333333334,
+   "citizenWinReverseOff": 0.5733333333333334,
+   "npcWinOn": 0.30733333333333335,
+   "humanWolfCaught": 0
+  }
+ },
+ "F": {
+  "easy": {
+   "humanWin": 0.7393333333333333,
+   "asCitizen": 0.8791666666666667,
+   "asWolf": 0.18
+  },
+  "normal": {
+   "humanWin": 0.5086666666666667,
+   "asCitizen": 0.6233333333333333,
+   "asWolf": 0.05
+  },
+  "smart": {
+   "humanWin": 0.27066666666666667,
+   "asCitizen": 0.32083333333333336,
+   "asWolf": 0.07
+  },
+  "ultra": {
+   "humanWin": 0.19266666666666668,
+   "asCitizen": 0.1825,
+   "asWolf": 0.23333333333333334
+  }
+ }
+}

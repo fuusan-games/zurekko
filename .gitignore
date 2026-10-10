@@ -1,0 +1,4 @@
+screenshots/
+.DS_Store
+node_modules/
+tools/*.log
